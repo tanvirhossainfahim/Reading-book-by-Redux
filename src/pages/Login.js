@@ -10,7 +10,7 @@ const Login = () => {
       style={{ height: "100vh" }}
     >
       <h5 className='mb-5'>
-        Book<strong className='text-primary '>Shelf</strong>
+        See Your<strong className='text-primary '>Favourite Books</strong>
       </h5>
       <img className='w-25 pb-4' src={bookShelf} alt='' />
       <button onClick={signInWithGoogle} className='btn btn-light'>

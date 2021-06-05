@@ -9,7 +9,7 @@ const Header = () => {
     <div className='py-3 border-bottom bg-light '>
       <div className='container d-flex justify-content-between align-items-center'>
         <Link className='h5 text-dark text-decoration-none' to='/'>
-          Book<strong className='text-primary'>Shelf</strong>
+          Listof<strong className='text-primary'>Books</strong>
         </Link>
         {user && (
           <div className='d-flex align-items-center'>
